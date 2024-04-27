@@ -1,24 +1,38 @@
 //Suppose array is [5,4,3,2,1]
 //Selection Sort
-import java.util.*;
-import java.util.Arrays;
+//import java.util.Arrays;
+//import java.util.*;
 public class Selection{
   public static void main(String[] args){
+    // Scanner sc = new Scanner(System.in);
+    // System.out.print("Define size of array : ");
+    // int number = sc.nextInt();
+    // int[] array = new int[number];
+    // for (int i = 0; i < array.length; i++) {
+    //   array[i]=sc.nextInt();
+    // }
+    // for (int i = 0; i < array.length; i++) {5
+    //   System.out.print(array[i] + " ");
+    // }
     int[] array = {5,4,3,2,1};
-    int op = selectElement(array);
-    System.out.print(Arrays.toString(op));
-  }
-  public static int selectElement(int arr){
-    for(int i = 0; i<n-2; i++){
-      int mini = i;
-      for(int j = 0; j<n-1; j++){
-        if(arr[j]<arr[mini]){
-         //mini = j;
-          int temp = arr[mini];
-          arr[mini] = arr[j];
-          arr[j] = temp;
-        }
+    sortElement(array);
+    for (int i = 0; i < array.length; i++) {
+      System.out.print(array[i] + " ");
+    }
+ }
+
+ public static void sortElement(int arr[]){
+  for (int i = 0; i < arr.length-1; i++) {
+    int min = i;
+    
+    for (int j = 0; j < arr.length-1; j++) {
+      if(arr[j] < arr[min]){
+        min=j;
       }
+      int temp = arr[min];
+      arr[min] = arr[i];
+      arr[i] = temp;
     }
   }
+ }
 }
