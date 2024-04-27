@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.Arrays;
 public class Selection{
   public static void main(String[] args){
-    int array = {5,4,3,2,1};
+    int[] array = {5,4,3,2,1};
     int op = selectElement(array);
     System.out.print(Arrays.toString(op));
   }
