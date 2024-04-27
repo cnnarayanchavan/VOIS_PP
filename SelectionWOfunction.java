@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class SelectionWOfunction{
   public static void main(String[]args){
     int[] arr = {5,4,3,2,1};
@@ -12,6 +13,6 @@ public class SelectionWOfunction{
         arr[i] = temp;
       }
     }
-    System.out.print(arr.toString(arr));
+    System.out.print(Arrays.toString(arr));
   }
 }
