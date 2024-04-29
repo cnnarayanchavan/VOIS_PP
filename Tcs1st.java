@@ -1,8 +1,8 @@
 import java.util.Scanner;
-public class MyClass{
+public class Tcs1st{
   public static void main(String[]args){
     Scanner sc = new Scanner(System.in);
-    int Number  = sc.nextInt();
+    int Number  = sc.nextInt();s
     int op = tableSum(Number);
   }
 
