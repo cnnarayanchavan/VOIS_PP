@@ -9,7 +9,7 @@ public class MyClass{
   public static int tableSum(int num){
     int sum = 0;
     for(int i = 0; i<=10; i++){
-      int asn = num * i;
+      int ans = num * i;
       sum += ans;
     }
     return sum;
