@@ -4,6 +4,7 @@ public class Tcs1st{
     Scanner sc = new Scanner(System.in);
     int Number  = sc.nextInt();
     int op = tableSum(Number);
+    System.out.println(op);
   }
 
   public static int tableSum(int num){
