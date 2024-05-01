@@ -1,3 +1,4 @@
+import java.util.*;
 import java.util.Arrays;
 public class Insertion{
   public static void main(String[]args){
