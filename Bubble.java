@@ -15,3 +15,11 @@ public class Bubble {
         System.out.println(Arrays.toString(arr));
     }
 }
+
+//very simple if first element is less then second then just SWAP pal!!!!
+
+//Taking about the time complexity : similar too selection sort here algo running for n, n-1, n-2.....  similar to n natural numbers 
+
+//So the worst == o(n^2)
+
+//And the Best == o(n)  works only if the array is in ascending order means it is already sorted no need to further  check after one check
