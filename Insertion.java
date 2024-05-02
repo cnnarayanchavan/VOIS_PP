@@ -15,3 +15,14 @@ public class Insertion{
     System.out.print(Arrays.toString(arr));
   }
 }
+
+
+// checks for all like others 
+
+//once Starts check for all like n natural number
+
+//Time complixity 
+
+//Worst o(n^2)
+
+// Best o(n)
