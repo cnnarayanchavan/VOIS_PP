@@ -36,3 +36,24 @@ public class Selection{
   }
  }
 }
+
+
+
+//Theory Part
+
+// In selection sort as the name suggest we select "mini" as let's consider i
+
+//place it at it's correct index (Swap mini index value with it's correct element index)
+
+//And how ?? by simple swapinggggg..
+
+//here at the end of the sorting last element by defaulty sorted so no need to go on that 
+
+//Talking about the time complicity it's like sum of n natural numbers 
+
+// only go till (n-2)
+
+//every time it goes like n+n-1+n-2=n-3...
+
+//SO the Time Complixity : o(n^2)  and this is the Best and Worst and Average time complixity 
+
